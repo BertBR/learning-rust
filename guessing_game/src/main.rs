@@ -13,6 +13,7 @@ fn main() {
     loop {
         if rounds == 0 {
             println!("You have no more rounds left!");
+            println!("The secret number was: {}", secret_number);
             break;
         }
         let rounds_msg = format!("You have {} rounds to guess the number", rounds);
